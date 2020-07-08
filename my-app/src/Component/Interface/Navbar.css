@@ -1,0 +1,19 @@
+/* Icone */
+
+.fa-phone-square-alt {
+    font-size: 2em; 
+    color: lightcoral;
+}
+
+/*  */
+
+.navbar {
+    color: lightcoral;
+    background-color: darkgray;
+
+}
+
+body {
+    padding-top: 80px;
+    /* padding-bottom: 50px; */
+  }
