@@ -1,7 +1,6 @@
 import React from 'react'
 import { useForm } from "react-hook-form";
 import { useHistory } from 'react-router-dom';
-import Contact from './Contact';
 import { removeEmptyFields } from '../../Utils/utils';
 
 
@@ -44,8 +43,6 @@ export default function EditEntryPage(params) {
                         placeholder= {contact.firstName}
                         name='firstName'
                         ref={register}
-                    // value={this.state.firstname}
-                    // onChange={this.onChange}
                     />
                 </div>
                 <div className="form-group">
@@ -56,8 +53,6 @@ export default function EditEntryPage(params) {
                         placeholder={contact.lastName}
                         name='lastName'
                         ref={register}
-                    // value={this.state.firstname}
-                    // onChange={this.onChange}
                     />
                 </div>
                 <div className="form-group">
@@ -68,8 +63,6 @@ export default function EditEntryPage(params) {
                         placeholder={contact.phone}
                         name='phone'
                         ref={register}
-                    // value={this.state.firstname}
-                    // onChange={this.onChange}
                     />
                 </div>
 
